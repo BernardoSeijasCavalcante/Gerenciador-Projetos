@@ -4,9 +4,12 @@ import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
+
 function App() {
   return (
     <div className="App">
+      <Condicional></Condicional>
       <SayMyName name="Joãozinho" resp={2222} qualidade="azul">
       </SayMyName>
       <Evento></Evento>
