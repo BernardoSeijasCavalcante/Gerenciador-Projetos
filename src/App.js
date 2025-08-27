@@ -2,13 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
-
+import Evento from './components/Evento';
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <SayMyName name = "Bernas" resp="Horrível!" qualidade="ruim">
-
+      <SayMyName name="Joãozinho" resp={2222} qualidade="azul">
       </SayMyName>
+      <Evento></Evento>
+      <Form></Form>
       <HelloWorld>
 
       </HelloWorld>

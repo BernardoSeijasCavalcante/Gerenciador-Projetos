@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function SayMyName({name, resp, qualidade}){
 
     return(
@@ -9,6 +11,12 @@ function SayMyName({name, resp, qualidade}){
         </>
     )
 
+}
+
+SayMyName.propTypes = {
+    name: PropTypes.string.isRequired,
+    resp: PropTypes.string,
+    qualidade: PropTypes.string,
 }
 
 export default SayMyName
